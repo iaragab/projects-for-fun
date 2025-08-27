@@ -1,0 +1,59 @@
+*{box-sizing: border-box;}
+
+:root{
+    --colorBody:#fafafa;
+    --colorTitle:#3c0e6a;
+    --colortab:#114175;
+    --colorBoton:#3c0e6a;
+}
+
+body{
+    margin: 0;
+    background-color: var(--colorBody);
+}
+
+section{
+    width: 100vw;
+}
+
+.elecciones{
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    gap: 9%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+/* tabs */
+
+.info{
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+    outline: 1px solid #11416b4d;
+    border-radius: 25px;
+}
+
+.info img{
+    width: 20%;
+    mask-image: url(Book.svg);
+}
+button{
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 1px 0px #000000;    
+    padding: 2%;
+    transition: all 0.3s ease;
+}
+
+.activo{
+    transform: scale(1.2);
+    background-color: #323b45;
+    color: white;
+
+}
