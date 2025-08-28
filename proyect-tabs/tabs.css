@@ -41,13 +41,12 @@ ul{
 
 .info img{
     width: 20%;
-    mask-image: url(Book.svg);
 }
 button{
     border-radius: 25px;
     border: none;
     box-shadow: 0px 0px 1px 0px #000000;    
-    padding: 2%;
+    padding: 8%;
     transition: all 0.3s ease;
 }
 
