@@ -10,6 +10,7 @@
 body{
     margin: 0;
     background-color: var(--colorBody);
+    font-size: x-large;
 }
 
 section{
@@ -44,6 +45,7 @@ ul{
 }
 button{
     border-radius: 25px;
+    font-size: x-large;
     border: none;
     box-shadow: 0px 0px 1px 0px #000000;    
     padding: 8%;
