@@ -46,9 +46,9 @@ function mostrarTarea(tarea) {
 }
 
 btnMuestra.addEventListener("click", () => {
-  lista.shift(); 
+  lista.pop();
   localStorage.setItem("tareas", JSON.stringify(lista));
-  cuaderno.removeChild(cuaderno.firstChild);
+  cuaderno.removeChild(cuaderno.lastChild);
 
   if (lista.length === 0) {
     btnMuestra.style.display = "none";
