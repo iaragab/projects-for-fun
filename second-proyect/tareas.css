@@ -74,9 +74,11 @@ input{
 
 
 .pantalla li{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  text-transform: capitalize;
   text-align: center;
   list-style: none;
+
   border-radius: 15px;
   padding: 5px 30px;
   background: rgb(255 255 255 / 57%);
