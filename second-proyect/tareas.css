@@ -6,7 +6,7 @@ body{
   margin: 0;
   padding: 0;
   background-image: url(../imagenes-proyect/IMG_0724.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 input, select, button {
@@ -30,7 +30,7 @@ input, select, button {
 .relleno{
   margin-top: 45px;
   background-image: url(../imagenes-proyect/IMG_0724.jpeg);
-  background-size: cover;
+  background-size: contain;
   border: 1px solid #525252;
   border-radius: 35px;
 }
@@ -61,6 +61,7 @@ input{
   padding: 0px 16px;
   border-radius: 50px;
   cursor: pointer;
+  display: none;
   margin-top: 20px;
   border: none;
   background-color: white;
@@ -93,4 +94,22 @@ input{
   flex-direction: column;
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 700px) {
+  body{
+    background-image: url(../imagenes-proyect/Angulo-IMG_0724.jpeg);
+    transition: all 0.3s ease;
+  }
+  .contenedor{
+    height: 90vh;
+    margin: 6% auto;
+  }
+  .relleno{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 28px;
+    padding: 6%;
+  }
 }
